@@ -1,0 +1,47 @@
+.todoItem-wrapper{
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px 40px;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
+  margin-bottom: 15px;
+}
+.item-form{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.actions{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.fa-pen-to-square{
+  background-color: green;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.fa-pen-to-square:hover{
+  box-shadow: -5px 4px 41px 18px rgba(73, 251, 53, 0.3);
+}
+.fa-trash-can:hover{
+  box-shadow: 5px 4px 21px 15px rgba(239, 55, 55, 0.3);
+}
+.fa-trash-can{
+  background-color: rgb(251, 11, 11);
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form label{
+  font-size: 20px;
+}
